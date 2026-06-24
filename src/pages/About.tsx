@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div className="main-page">
-      <BackButton backUrl={"/home"} />
+      <BackButton backUrl={"/"} />
       <div className="img-section">
         <img src={Twilight} alt="Twilight" className="about-photo" />
         <img src={Twilight2} alt="Twilight" className="about-photo" />
