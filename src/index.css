@@ -45,7 +45,9 @@
     background-color: var(--accent-bg);
     transform: translateY(-2px);
 }
-
+@media (max-width: 1024px){
+    overflow-y: scroll;
+  }
 }
 
 #root {
