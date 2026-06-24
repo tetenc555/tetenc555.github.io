@@ -1,0 +1,14 @@
+.back-button{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #c830cd94;
+    border: 2px solid #fcc5e8;
+    background-color: var(--bg);
+}
+
+.back-button:hover {
+    background-color: var(--accent-bg);
+    transform: translateY(-2px);
+}
